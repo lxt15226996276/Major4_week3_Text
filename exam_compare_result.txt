@@ -1,0 +1,11 @@
+Exam01: W3_len=253 W2_len=431 same=False
+  W3 Exam01 best match W2 Exam05 ratio=0.063
+Exam02: W3_len=299 W2_len=299 same=True
+Exam03: W3_len=301 W2_len=301 same=True
+Exam04: W3_len=203 W2_len=203 same=True
+Exam05: W3_len=150 W2_len=150 same=True
+Exam06: W3_len=158 W2_len=158 same=True
+Exam07: W3_len=127 W2_len=127 same=True
+Exam08: W3_len=229 W2_len=229 same=True
+Exam09: W3_len=339 W2_len=339 same=True
+Exam10: W3_len=233 W2_len=233 same=True
