@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Major4_week2_Text.sln"
+    "dotnet.defaultSolution": "Major4_week3_Text.sln"
 }
