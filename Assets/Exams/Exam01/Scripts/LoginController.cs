@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 
 namespace Exam.Exam01
 {
-    /// <summary>W3 Exam01 · 登录校验并跳转主界面</summary>
+    /// <summary>Exam01 · 登录校验（作者 lixiaotong）</summary>
     public class LoginController : MonoBehaviour
     {
-        // --- 卷面自定义账号密码（考试当天可改这两个 const） ---
+        // 试卷密码 888888；账号 = 姓名全拼
         private const string ValidAccount = "lixiaotong";
-        private const string ValidPassword = "123456";
+        private const string ValidPassword = "888888";
 
         [Header("UI")]
         [SerializeField] private InputField _accountInput;
@@ -26,7 +26,7 @@ namespace Exam.Exam01
             _passwordInput.onSubmit.AddListener(_ => OnLoginClick());
         }
 
-        /// <summary>试卷：失败 Console · 成功跳主界面</summary>
+        /// <summary>试卷：成功 Console「登陆成功」并跳转选服；失败 Console「登录失败」</summary>
         public void OnLoginClick()
         {
             string account = _accountInput.text.Trim();
@@ -34,8 +34,8 @@ namespace Exam.Exam01
 
             if (account == ValidAccount && password == ValidPassword)
             {
-                Debug.Log("登录成功");
-                SceneManager.LoadScene(SceneNames.Main);
+                Debug.Log("登陆成功");
+                SceneManager.LoadScene(SceneNames.Server);
             }
             else
             {

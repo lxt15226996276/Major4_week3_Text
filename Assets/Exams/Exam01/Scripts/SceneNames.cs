@@ -4,6 +4,7 @@ namespace Exam.Exam01
     public static class SceneNames
     {
         public const string Login = "Exam01_LoginScene";
+        public const string Server = "Exam01_ServerScene";
         public const string Main = "Exam01_MainScene";
     }
 }
