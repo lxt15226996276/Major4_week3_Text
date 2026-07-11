@@ -100,12 +100,12 @@
 
 ---
 
-## 五、W3 第一周打开顺序
+## 五、W4 第一周打开顺序
 
 1. [`Docs/README.md`](../README.md)
 2. [`Docs/00-每日入口/lixiaotong_唯一执行入口.md`](../00-每日入口/lixiaotong_唯一执行入口.md)
-3. [`Docs/01-成长路线/W3-Lab周-当前.md`](../01-成长路线/W3-Lab周-当前.md)
-4. [`Assets/Labs/Stage01_W3/Lab_Animation_01.md`](../../Assets/Labs/Stage01_W3/Lab_Animation_01.md)
+3. [`Docs/01-成长路线/W4-阶段项目-当前.md`](../01-成长路线/W4-阶段项目-当前.md)
+4. [`Assets/Exams/Exam01/Docs/分步教程.md`](../../Assets/Exams/Exam01/Docs/分步教程.md)（复用登录链）
 5. [`Assets/Exams/Docs/教学规范.md`](../../Assets/Exams/Docs/教学规范.md)
 
 ---
@@ -115,9 +115,9 @@
 ```
 @Docs/00-每日入口/lixiaotong_唯一执行入口.md
 @Docs/02-学员档案/学员能力档案_lixiaotong.md
-@Docs/01-成长路线/W3-Lab周-当前.md
+@Docs/01-成长路线/W4-阶段项目-当前.md
 @Assets/Exams/Docs/教学规范.md
-@Assets/Labs/Stage01_W3/Lab_XX.md
+@Assets/Exams/ExamXX/Docs/分步教程.md
 ```
 
 **不要**再 @ `Tests/Major4_week1_Exams/...`

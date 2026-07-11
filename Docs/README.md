@@ -6,12 +6,12 @@
 
 ---
 
-## 一、文件夹地图（2026-06 · W3 起）
+## 一、文件夹地图（2026-07 · W4 起）
 
 | 文件夹 | 谁用 | 内容 |
 |--------|------|------|
 | **[00-每日入口](00-每日入口/)** | **你每天** | 唯一执行入口 · 今天干什么 |
-| **[01-成长路线](01-成长路线/)** | 每周换 | 阶段配置 · W2 归档 · **W3 Lab 周** · **IC 职级 L0-F1** · 模板 |
+| **[01-成长路线](01-成长路线/)** | 每周换 | 阶段配置 · W2/W3 归档 · **W4 RPG 周** · **IC 职级 L0-F1** · 模板 |
 | **[02-学员档案](02-学员档案/)** | 你 + AI | P/K/S · 踩坑 · SiKi 映射 |
 | **[03-排课与考纲](03-排课与考纲/)** | 规划 | 10 套排课 · U01～U20 摘要 · 题库答案 |
 | **[04-教练参考](04-教练参考/)** | AI 为主 | 外部吸收库 · 小灶 · 面试映射 |
@@ -23,21 +23,32 @@
 
 ## 二-B、清理 `Tests/` 五个文件夹？
 
-**可以删** · **不影响 W3 与教练模板** · 详表 → [`07-迁移与归档/README.md`](07-迁移与归档/README.md)
+**可以删** · **不影响 W4 与教练模板** · 详表 → [`07-迁移与归档/README.md`](07-迁移与归档/README.md)
 
 ---
 
-## 三、W3 本周（Lab 周 · 不做 10 套 Exam）
+## 三、W4 本周（RPG 阶段项目 · 登录→主场景→战斗）
+
+| 阶段 | 做什么 | 文件 |
+|:----:|--------|------|
+| **4a** | 登录→Loading→主场景 场景链 | [`W4-阶段项目-当前.md`](01-成长路线/W4-阶段项目-当前.md) **§三** |
+| 4b | 主场景 HUD + 背包/属性整合 | 同上 |
+| 4c | 战斗场景 / 刷怪 / 血条 | 同上 |
+| 4d | U20 综合复习 + 档案复测 | 同上 |
+
+**W3 已归档**：[`W3-Lab周-归档.md`](01-成长路线/W3-Lab周-归档.md) · Lab 5/5 ✅
+
+---
+
+## 三-B、W3 归档（Lab 周 · 已完成 2026-07-11）
 
 | 天 | 做什么 | 文件 |
 |:--:|--------|------|
-| D1 | Animator 两状态 | [`Assets/Labs/Stage01_W3/Lab_Animation_01.md`](../Assets/Labs/Stage01_W3/Lab_Animation_01.md) |
-| D2 | BlendTree / IK 二选一 | Lab_Animation_02 |
-| D3 | EditorWindow + MenuItem | Lab_Editor_01 |
-| D4 | 摇杆 + 状态机入口 | Lab_Gameplay_01 |
-| D5 | 怪物 AI 四态 | Lab_AI_01 |
-
-详表：[`01-成长路线/W3-Lab周-当前.md`](01-成长路线/W3-Lab周-当前.md)
+| D1 | Animator 两状态 | [`Lab_Animation_01.md`](../Assets/Labs/Stage01_W3/Lab_Animation_01.md) ✅ |
+| D2 | BlendTree / IK 二选一 | Lab_Animation_02 ✅ |
+| D3 | EditorWindow + MenuItem | Lab_Editor_01 ✅ |
+| D4 | 摇杆 + 状态机入口 | Lab_Gameplay_01 ✅ |
+| D5 | 怪物 AI 四态 | Lab_AI_01 ✅ |
 
 ---
 
@@ -53,7 +64,7 @@
 
 ---
 
-## 五、投喂 AI 标准组合（W3 · **含 §11.28 双遍 Doc**）
+## 五、投喂 AI 标准组合（W4 · **含 §11.28 双遍 Doc**）
 
 **每次 Chat 输出前 · Coach 内部顺序**（详见 [`教学规范 §11.28`](../../Assets/Exams/Docs/教学规范.md)）：
 
@@ -66,8 +77,7 @@
 @Docs/02-学员档案/学员能力档案_lixiaotong.md
 @Docs/01-成长路线/职级全景_L0-F1_Unity客户端_lixiaotong.md
 @Docs/02-学员档案/踩坑记忆库_lixiaotong.md
-@Docs/01-成长路线/W3-Lab周-当前.md
+@Docs/01-成长路线/W4-阶段项目-当前.md
 @Assets/Exams/Docs/教学规范.md
 @Assets/Exams/ExamXX/Docs/分步教程.md
-@Assets/Labs/Stage01_W3/Lab_XX.md
 ```
